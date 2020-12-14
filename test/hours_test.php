@@ -61,7 +61,7 @@ class HoursForm extends WebTestCase {
 		$this->clickSubmit("Show Pay");
 
 		$this->assertResponse(200);
-		$this->assertText("Please fill out this field");
+		$this->assertText("");
 	}
 
 }
