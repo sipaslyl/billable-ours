@@ -14,6 +14,7 @@ class AllTests extends TestSuite {
         $this->addFile('decimal_hours_test.php');
         $this->addFile('no_hours_test.php');
         $this->addFile('zero_pay_test.php');
+        $this->addFile('decimal_pay_test.php');
     }
 }
 ?>
