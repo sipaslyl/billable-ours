@@ -4,7 +4,7 @@ include_once 'includes/settings.php';
 require_once 'simpletest/autorun.php';
 require_once 'simpletest/web_tester.php';
 
-class HoursForm extends WebTestCase {
+class NoHoursForm extends WebTestCase {
 
   function testZeroHours() {
 		  $this->get(VIRTUAL_PATH . '/hours.php');
