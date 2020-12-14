@@ -4,7 +4,7 @@ include_once 'includes/settings.php';
 require_once 'simpletest/autorun.php';
 require_once 'simpletest/web_tester.php';
 
-class HoursForm extends WebTestCase {
+class DecimalHoursForm extends WebTestCase {
 
   function testDecimalHours() {
 		$this->get(VIRTUAL_PATH . '/hours.php');
