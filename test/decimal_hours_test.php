@@ -7,7 +7,7 @@ require_once 'simpletest/web_tester.php';
 class HoursForm extends WebTestCase {
 
   function testDecimalHours() {
-		//$this->get(VIRTUAL_PATH . '/hours.php');
+		$this->get(VIRTUAL_PATH . '/hours.php');
 		$this->assertResponse(200);
 
     $this->setField("hours", "1.5");
